@@ -1,0 +1,43 @@
+.main{
+    margin-bottom: 80px;
+}
+.main img{
+    width: 100%;
+}
+.main h1{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.main input{
+    margin-bottom: 20px;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+}
+.main form{
+    margin-bottom: 16px;
+}
+.main a{
+    color: #916000;
+}
+.main a:hover{
+    font-weight: bold;
+}
+@media(max-width: 768px){
+    .main h1{
+        margin-top: 32px;
+    }
+}
+
+.login-button button{
+   width: 65px;
+   height: 38px;
+   background-color: #FFFFFF;
+   color: #916000;
+   border: 1px solid #916000;
+   border-radius: 4px;
+}
+.login-button button:hover{
+    background-color: #916000;
+    color: #FFFFFF;
+}

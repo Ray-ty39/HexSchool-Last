@@ -1,0 +1,176 @@
+.banner{
+    height: 870px;
+    background-image: url('https://images.unsplash.com/photo-1588159343745-445ae0b16383?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2089&q=80');
+	color: white;
+    margin-bottom: 60px;
+    background-position: center center;
+}
+.banner h2{
+	font-size: 40px;
+    font-weight: bold;
+}
+.banner p{
+	font-size: 24px;
+}
+@media(max-width: 768px){
+    .banner{
+        height: 480px;
+    }
+}
+
+#a-button{
+    display: block;
+    margin-top: 16px;
+    max-width: 100%;
+    height: 60px;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    background: none;
+    color: #FFFFFF;
+    font-size: 28px;
+    text-align: center;
+    line-height: 64px;
+}
+#a-button:hover{
+	background-color: white;
+	color: #8d8d8d;
+}
+@media(max-width: 768px){
+    .itemlist>li{
+        flex-direction: column-reverse!important;
+        margin-bottom: 32px;
+    }
+    .itemlist>li>div{
+        margin-bottom: 8px;
+    }
+}
+
+
+.intro-box{
+    max-width: 350px;
+}
+.intro-box h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+.intro-box p{
+    margin-bottom: 16px;
+}
+.intro-box a{
+    font-size: 16px;
+    color: #AC8A46;
+}
+.intro-box a:hover{
+    font-weight: bold;
+    border-bottom: 3px solid #AC8A46;
+}
+.intro-box h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.intro-box h4{
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.intro-box li{
+    margin-bottom: 52px;
+}
+.intro-box li>p{
+    font-size: 16px;
+}
+.intro-box #a-button{
+    margin-top: 8px;
+    border: 2px solid #000000;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+.intro-box #a-button:hover{
+    color: white;
+    background-color: #000;
+}
+@media(max-width: 768px){
+    .intro-box{
+        max-width: 540px;
+    }
+}
+
+.item-picture{
+    background-size: cover;
+    height: 555px;
+}
+@media(max-width: 768px){
+    .item-picture{
+        height: 350px;
+    }
+}
+
+.item-picture.a{
+    background-image: url('https://images.unsplash.com/photo-1563170351-be82bc888aa4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80');
+}
+.item-picture.b{
+    background-image: url('https://raw.githubusercontent.com/peiwenhuang27/hexschool-week2-perfume-website/main/img/top3.png');
+}
+.item-picture.c{
+    background-image: url('https://images.unsplash.com/photo-1585120040315-2241b774ad0f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+}
+.item-picture.d{
+    background-image: url('https://images.unsplash.com/photo-1542038382126-77ae2819338d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80');
+    height: 1080px;
+    background-position: center 0;
+}
+
+.gray{
+    background: #E0E0E0;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-top: 40px;
+}
+
+.item-price{
+    margin-bottom: 40px;
+}
+
+.item-price h2{
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 8px;
+}
+.item-price p{
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.item-price span{
+    padding-left: 8px;
+    text-decoration: line-through;
+    color: #8D8D8D;
+}
+
+.item-img{
+    height: 540px;
+    background-size: cover;
+    background-position: center center;
+}
+.item-img.a{
+    background-image: url('https://images.unsplash.com/photo-1530630458144-014709e10016?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1868&q=80');
+
+}
+.item-img.b{
+    background-image: url('https://images.unsplash.com/photo-1556228720-da4e85f25e15?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1876&q=80');
+}
+.item-img.c{
+    background-image: url('https://images.unsplash.com/photo-1559264730-1533a6ec0433?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+}
+.item-img.c>p{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    color: white ;
+    text-align: center;
+    font-size: 24px;
+    line-height: 540px;
+}
+
+.item-picture.e{
+    background-image: url('https://images.unsplash.com/photo-1594913615593-e4b8c44625be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80');
+}
